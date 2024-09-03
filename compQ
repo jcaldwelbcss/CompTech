@@ -1,0 +1,63 @@
+print("Hello, welcome to TEJ2O with Caldwell. I have some questions for you.");
+
+#What is your first name?
+input1 = input("What is your first name? ");
+print("Hello, " + input1 + ", nice to meet you.");
+
+#What is your last name?
+input2 = input("What is your last name? ");
+print(input1 + " " + input2 + ", excellent.");
+#What is your prefered name?
+
+input3 = input("What is your prefered name? ");
+#What are your pronouns?
+
+input4 = input("What are your pronouns, " + input3 + "? ");
+#Did you take Grade 9 tech with Caldwell or Simpson?
+
+input5 = input("Did you take Grade 9 tech with Caldwell or Simpson? ")
+if input5 == "yes" or input5 == "yep" or input5 == "yeah":
+    print("That's great!");
+elif input5 == "no" or input5 == "nope":
+    print("That's ok, welcome!")
+else:
+    print("I'm sorry, I don't know what" +input5 + " means");
+
+#Why did you choose this course?
+input6 = input("Why did you choose this course? ");
+
+#What do you hope to learn in this course?
+input7 = input("What do you hope to learn in this course? ");
+
+#Would you prefer a robot-focused or computer-focused course?
+input8 = input("Would you prefer a robot-focused or computer-focused course? ");
+
+#Tell me about yourself, how would your friend describe you to someone who has yet to meet you?
+input9 = input("Tell me about yourself, how would your friend describe you to someone who has yet to meet you? ");
+
+#Star Wars or Star Trek?
+
+input10 = input("Star Wars or Star Trek? ");
+if input10 == "both":
+    print("right?!, why should we choose when we can have both!")
+elif input10 == "none" or input10 == "neither" or input10 =="niether":
+    print("WRONG");
+else:
+    print("Caldwell likes both, they are really apples vs oranges");
+
+#Marvel or DC?
+input11 = input("Marvel or DC? ");
+if input11 == "Marvel":
+    print("This is the correct answer.");
+elif input11 == "DC":
+    print("You can have your opinions, even if they are wrong.");
+
+
+#What music are you listening to this week?
+
+input12 = input("What music are you listening to this week? ");
+
+#Anything Caldwell should know about your home life or your life in general that will help him support you while not making anything harder than it needs to be?
+input13 = input("Anything Caldwell should know about your home life or your life in general that will help him support you while not making anything harder than it needs to be? ");
+
+print("Thanks for taking the time to complete this survey. Please copy the results and email them to jcaldwel@hwdsb.on.ca ");
